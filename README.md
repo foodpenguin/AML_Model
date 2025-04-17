@@ -1,5 +1,7 @@
 # 使用 Autoencoder 與 Focal Loss DNN 進行反洗錢偵測 (AML Detection)
 
+ **[資料來源](https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml/data)
+
 本專案旨在利用機器學習技術偵測潛在的洗錢交易。採用了一個二階段的方法：
 
 1.  **無監督學習階段：** 使用 Autoencoder 模型對所有交易資料進行重建，計算重建誤差。高重建誤差的交易被初步標記為可疑。此階段利用正常交易模式來識別異常。
